@@ -1,0 +1,92 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+input{
+	margin: 0;
+	padding: 0;
+	width: 60px;
+	height: 30px;
+}
+#box{
+	width: 340px;
+	background-color: slategrey;
+	margin: 0 auto;
+	padding: 20px 10px;
+	position: relative;
+}
+#time{
+	width: 340px;
+	height: 40px;
+	font: 30px/40px "arial, helvetica, sans-serif";	
+	color: #fff;
+}
+#dated{
+	width: 340px;
+	height: 30px;
+	color: indigo;
+	font: 18px/30px "宋体";	
+	padding-bottom: 5px;
+}
+#months{
+	width: 340px;
+	height: 40px;
+	font: 20px/40px "宋体";
+	margin-bottom: 5px;
+}
+#setMonth,#change{
+	width: 50%;
+	height: 40px;
+	float: left;
+	color: #fff;
+}
+#change{
+	text-align: right;
+}
+#table{
+	width: 340px;
+	height: 180px;
+}
+#btn3{
+	width: 120px;
+	height: 30px;
+}
+/*设置年月的css*/
+#settime{
+	width: 300px;
+	height: 400px;
+	background-color: gray;
+	padding-top: 10px;
+	padding-left: 10px;
+	display: none;
+	position: absolute;
+	left: 300px;
+	top: 250px;
+}
+#setyear,#setmouth{
+	width: 50px;
+	height: 30px;
+	text-align: center;
+}
+#sure{
+	margin-left: 30px;
+}
+#yearlist,#monthlist{
+	width: 280px;
+	height: 300px;
+	margin-top: 20px;
+	display: none;
+}
+#yearlist{
+	background-color: paleturquoise;
+}
+#monthlist{
+	background-color: rosybrown;
+}
+.yearstyle{
+	width: 40px;
+	height: 30px;
+	float: left;
+	line-height: 30px;
+	text-align: center;
+}
